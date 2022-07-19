@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    background-image: url('Imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-position: center top;
+    animation-duration: 2ms;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
