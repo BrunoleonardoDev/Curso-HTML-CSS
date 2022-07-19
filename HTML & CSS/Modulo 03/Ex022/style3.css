@@ -1,0 +1,27 @@
+div.bloco{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: url('Imagens/wallpaper003.jpg');
+    display: inline-block;
+}
+#b1{
+    background-position: left top;
+}
+#b2{
+    background-position: left center;
+}
+#b3{
+    background-position: left bottom;
+}
+#b4{
+    background-position: center;
+}
+#b5{
+    background-position: right top;
+}
+#b6{
+    background-position: right center;
+}
