@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(48, 11, 83);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+h1 {
+    color: maroon;
+
+}
+h2 {
+    color: blanchedalmond;
+    background-color: aqua;
+}
+p {
+    color: antiquewhite;
+    text-align: justify;
+}
+a{
+    background-color: blanchedalmond;
+}

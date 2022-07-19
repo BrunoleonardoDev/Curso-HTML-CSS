@@ -1,0 +1,88 @@
+header{
+    background-color: #9e9595;
+    box-shadow: 1px 1px 5px rgb(56, 43, 43);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+}
+nav{
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgb(56, 43, 43);
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;  
+}
+nav > a {
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    
+}
+assuntos{
+    padding: 5px;
+}
+aside {
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 0px;
+}
+aside > p{
+    text-align: center;
+}
+aside > p > a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(255, 136, 0);
+}
+
+#assuntos > p{
+    background-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+main{
+    background-color: #9e9595;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px rgb(56, 43, 43);
+}
+
+p{
+    text-align: justify;
+    padding-left: 10px;
+}
+h1, h2{
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 136, 0);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 1px;
+}
+footer > p{
+    text-align: center;
+
+}
+footer > p:hover{
+    color: aqua;
+}

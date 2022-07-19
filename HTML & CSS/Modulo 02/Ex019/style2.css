@@ -1,0 +1,33 @@
+div:hover{
+    
+    
+}
+
+#d2,#d3,#d1{
+    border-radius: 100px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(252, 0, 197);
+    text-align: center;
+    height: 200px;
+    width: 200px;            
+}
+body{
+    background-color: rgb(46, 43, 43);
+    
+
+}
+h1, p {
+    color: azure;
+    
+}
+div > p{
+    display: none;
+}
+div:hover > p {
+    display: block;
+}
+div{
+    color: aliceblue;
+}

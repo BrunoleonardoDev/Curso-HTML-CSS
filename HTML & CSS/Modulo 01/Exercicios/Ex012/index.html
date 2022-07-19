@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispisitivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-300px.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-700px.png" type="image/png">
+        <img src="imagens/foto-1000px.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio,</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="auto" controls loop>
+        <source src="Musicas/Warzone.mp3" type="audio/mpeg">
+        <source src="Musicas/Warzone.wav" type="audio/ogg">
+        <source src="Musicas/Warzone.ogg" type="audio/wav">
+        <p>infelizmente o seu navegador não consegue reproduzir audio. <a href="Musicas/Warzone.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está horpedado no meu proprio servidor</p>
+    <video poster="Imagens/thumbnail.png" width="500" controls>
+        <source src="Videos/Oceano.mp4" type="video/mp4">
+        <source src="Videos/Oceano.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    <h1>Video de hospedagem externa</h1>
+    <p>Este video abaixo foi incorporado do YouTube:</p>
+    
+    <iframe poster="Imagens/thumbnail.png" width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
