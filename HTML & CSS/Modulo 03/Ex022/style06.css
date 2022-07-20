@@ -1,9 +1,6 @@
 body{
-    background-color: black;
-    background-image: url('Imagens/wallpaper002.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100%;
+    background: black url('Imagens/wallpaper002.jpg') no-repeat center top fixed;
+    background-size: cover;
 }
 main{
     background-color: rgb(255, 255, 255);
