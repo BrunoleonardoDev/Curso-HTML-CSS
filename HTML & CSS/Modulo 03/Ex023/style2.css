@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #add8e6;
+    border: 1px solid black;
+}
+h1{
+    background-image: linear-gradient(45deg, #ffa07a, #add8e6);
+    padding: 10px;
+    width: 480px;
+    color: white;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+
+}
+td{
+    border: 1px solid black;
+    background-color: #add8e6;
+    padding: 5px;
+    color: #000000;
+}
+tr{
+    background-color: #ffa07a;
+    border: 1px solid black;
+}
+th{
+    padding: 5px;
+}
+.numero{
+    text-align: center;
+}
+#resultado{
+    background-color: lightsalmon;
+}
