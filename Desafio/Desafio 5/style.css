@@ -51,16 +51,29 @@ section.normal{
 }
 section.imagem{
      color: white;
+     background-attachment: fixed;
+     box-shadow: inset 6px 6px 20px 0px black;
     
 
 }
 section.imagem p{
-    background-color: rgba(44, 44, 44, 0.288);
+    background-color: rgba(44, 44, 44, 0.466);
     display: inline-block;
     border-radius: 10px;
     padding: 8px;
     font-family: 'Sriracha', cursive;
+    text-shadow: 1px 1px;
     
+}
+#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 footer{
     background-color: black;
