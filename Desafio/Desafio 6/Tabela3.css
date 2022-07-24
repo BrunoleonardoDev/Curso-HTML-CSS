@@ -1,0 +1,47 @@
+table{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: #752e2b;
+    text-align: center;
+    color: #f2eab7;
+}
+td{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#row{
+    background-color: #090f13;
+    color: #f2eab7;
+}
+#col{
+    background-color: #090f13;
+    color: white;
+}
+#row:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#col:hover{
+    background-color: black;
+    color: #f2eab7;
+    font-weight: bold;
+}
+#normal{
+    background-color: #f2eab7;
+    border: 1px solid white;
+    color: black;
+    padding-right: 10px;
+}
+#nomes{
+    background-color: #171f25;
+    color: white;
+    padding: 5px;
+}
