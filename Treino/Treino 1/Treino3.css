@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url('imagem/back2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  ;
+}
+
+form{
+    background-color: black;
+}

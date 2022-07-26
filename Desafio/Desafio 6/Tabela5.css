@@ -1,18 +1,27 @@
-table{
-    background-color: rgb(0, 0, 0);
+*{
+    margin: 0%;
+    padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    background-color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
     
 }
 th{
-    border: 1px solid black;
-    width: 200px;
+    border: 1px solid #000000;
+    width: 400px;
     height: 50px;
     background-color: #752e2b;
     text-align: center;
     color: #f2eab7;
+    border-radius: 5px;
 }
 td{
-    border: 1px solid black;
+    border: 1px solid #000000;
     width: 200px;
     height: 50px;
     text-align: center;
@@ -41,14 +50,15 @@ td{
 }
 #normal{
     background-color: #f2eab7;
-    border: 1px solid white;
     color: black;
     padding-right: 10px;
+    border-radius: 5px;
 }
 #nomes{
     background-color: #171f25;
     color: white;
     padding: 5px;
+    border-radius: 5px;
 }
 #container{
     overflow-x: auto;
@@ -56,11 +66,22 @@ td{
 }
 p{
     text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h1{
     text-align: center;
     background-image: linear-gradient(45deg,#752e2b, #171f25);
     color: #f2eab7;
-    position: ;
-    background-repeat: ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+caption{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+
 }
